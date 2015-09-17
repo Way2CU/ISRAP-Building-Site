@@ -9,7 +9,41 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
+			<header>
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="header_content"
+					template="parts/header_content.xml"
+					/>
+
+				<a
+					href="'tel:'.urlencode(Language::getText('phone'))"
+					cms:eval="href"
+					class="phone"
+					>
+					<cms:text constant="phone"/>
+					<img src="_BASEURL.'/site/images/phone-circle.svg'" cms:eval="src"/> 
+				</a>
+
+			</header>
+
+			<section class="form">
+
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="form_title"
+					template="parts/header_content.xml"
+					/>
+
+				<cms:module
+					name="contact_form"
+					action="show"
+					text_id="contact"
+					/>	
+					
+			</section>
 		</body>
 	</html>
 </document>
