@@ -42,7 +42,42 @@
 					action="show"
 					text_id="contact"
 					/>	
-					
+
+			</section>
+
+			<section class="about">
+				<div>
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="about_feature1"
+						template="parts/article.xml"
+						/>
+				</div>
+
+				<div></div>
+				<div></div>
+
+				<div>
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="about_feature2"
+						template="parts/article.xml"
+						/>					
+				</div>
+
+			</section>
+
+			<section class="features">
+
+				<cms:module
+					name="articles"
+					action="show_group"
+					text_id="features"
+					template="parts/show_group_articles.xml"
+				/>
+
 			</section>
 		</body>
 	</html>
