@@ -193,16 +193,17 @@ section.about article h2:before {
 section.about article p {
 	display: block;
 	padding-top: 30px;
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 
 section.features {
 	display: block;
-	text-align: center;
+	text-align: right;
 }
 
 section.features h2 {
 	display: block;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 30px;
@@ -216,8 +217,9 @@ section.features h2 {
 section.features div.feature {
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
+	width:50%;
 	min-height: 400px;
+	position: relative;
 }
 
 section.features div.feature:first-of-type {
@@ -246,5 +248,29 @@ section.features div.feature:last-of-type {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+}
+
+section.features div.feature article {
+	position: absolute;
+	top:20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 60%;
+    min-height: 270px;
+}
+
+section.features div.feature article h3 {
+	display: block;
+	color: #f2623e;
+	border-bottom: 2px solid #f2623e;	
+}
+
+section.features div.feature article p {
+	display: block;
+	padding-top: 10px;
+	font-size: 1.1em;
 }
 
