@@ -79,6 +79,22 @@
 				/>
 
 			</section>
+
+			<footer>
+				<div class="footer_content">
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="footer_content"
+						template="parts/header_content.xml"
+						/>
+				</div>
+
+				<div class="copyright">
+					<span><cms:text constant="copyright"/></span>
+				</div>
+								
+			</footer>
 		</body>
 	</html>
 </document>
