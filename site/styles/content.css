@@ -53,14 +53,13 @@ form label:nth-of-type(3):before {
     background-position: -20px 0px;
 }
 
-
 form label input {
     display: inline-block;
     vertical-align: middle;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-right: 40px;
-	background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid #f2623e;
     border-left: none;
     box-shadow: 0px 2px 10px rgba(126, 139, 140, 0.2);
@@ -68,9 +67,12 @@ form label input {
     transition:all 0.3s;
 }
 
-form label input:hover, form label input:focus {
-	border:1px solid #00405d;
-	border-left: none;
+form label input:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+form label input:focus {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 form div.controls {
@@ -113,5 +115,94 @@ form div.controls button:hover {
 
 :-ms-input-placeholder {  
    color: #00405d;  
+}
+
+section.about {
+	display: block;
+	text-align: right;
+}
+
+section.about div {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	min-height: 400px;
+}
+
+section.about div:first-of-type, section.about div:last-of-type {
+	background-image: url(../images/texture.png);
+	background-repeat: repeat;
+	background-position: center center;
+	background-size: 100px 100px;
+}
+
+section.about div:nth-of-type(2) {
+	background-image: url(../images/strong-real-estate.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+section.about div:nth-of-type(3) {
+	background-image: url(../images/Comprehensive-finishing-solutions.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+section.about div:first-of-type article {
+	display: block;
+	padding-top: 50px;
+	padding-left: 50px;
+	margin-right: auto;
+	width: 60%;
+}
+
+section.about div:last-of-type article {
+	display: block;
+	padding-top: 50px;	
+	padding-right: 50px;
+	margin-left: auto;
+	width: 60%;
+}
+
+section.about article h2 {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #00405d;
+	color:white;
+	font-size: 2.6em;
+	position: relative;
+}
+
+section.about article h2:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #00405d;
+    border-left: 20px solid transparent;
+}
+
+section.about article p {
+	display: block;
+	padding-top: 30px;
+	font-size: 1.3em;
+}
+
+section.features {
+	display: block;
+	text-align: center;
+}
+
+section.features h2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
