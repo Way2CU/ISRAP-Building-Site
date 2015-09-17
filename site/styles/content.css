@@ -202,7 +202,49 @@ section.features {
 }
 
 section.features h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 30px;
-	padding-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 2.8em;
+    color: #f2623e;
+    line-height: 100%;
+    width: 70%;
+}
+
+section.features div.feature {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	min-height: 400px;
+}
+
+section.features div.feature:first-of-type {
+	background-image: url(../images/engineers.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+section.features div.feature:nth-of-type(2) {
+	background-image: url(../images/air-conditioning.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+section.features div.feature:nth-of-type(3) {
+	background-image: url(../images/Infrastructure-plumbing.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+section.features div.feature:last-of-type {
+	background-image: url(../images/Plasterwork.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
