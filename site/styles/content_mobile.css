@@ -134,7 +134,7 @@ section.about div {
 	margin-right: auto;
     padding-top: 10px;	
     padding-bottom: 10px;
-	width: 95%;
+	width: 100%;
 	min-height: 180px;
 }
 
@@ -146,14 +146,14 @@ section.about div:nth-of-type(2), section.about div:nth-of-type(3) {
 }
 
 section.about div:nth-of-type(2) {
-	background-image: url(../images/strong-real-estate.jpg);
+	background-image: url(../images/1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 section.about div:nth-of-type(4) {
-	background-image: url(../images/Comprehensive-finishing-solutions.jpg);
+	background-image: url(../images/details-of-a-modern.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -161,7 +161,9 @@ section.about div:nth-of-type(4) {
 
 section.about div article {
 	display: block;
-	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
 }
 
 
@@ -199,7 +201,6 @@ section.about article p {
 section.features {
 	display: block;
 	text-align: right;
-	padding-bottom: 10px;
 }
 
 section.features h2 {
@@ -219,21 +220,27 @@ section.features article {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 95%
+	width: 100%;
 }
 
 section.features article h3 {
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	color: #f2623e;
-	border-bottom: 2px solid #f2623e;	
+	border-bottom: 2px solid #f2623e;
+	width: 95%;	
 }
 
 section.features article p {
 	display: block;
+	margin-left: auto;
+	margin-right: auto;	
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 1em;
 	line-height: 100%;
+	width: 95%;		
 }
 
 section.features article figure {
@@ -243,6 +250,7 @@ section.features article figure {
 	margin: 0px;
 	padding: 0px;
 	min-height: 215px;
+
 }
 
 section.features article:first-of-type figure {
