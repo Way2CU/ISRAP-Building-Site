@@ -301,3 +301,55 @@ div.feature article p {
 	line-height: 100%;
 }
 
+@media all and (max-width: 1024px) and (min-width: 768px) {
+header {
+	padding-right: 20px;
+}
+
+section.about div:first-of-type article {
+    display: block;
+    padding-top: 50px;
+    padding-left: 25px;
+    margin-right: auto;
+    width: 85%;
+}
+
+section.about div:last-of-type article {
+    display: block;
+    padding-top: 50px;
+    padding-right: 25px;
+    margin-left: auto;
+    width: 85%;
+}
+
+section.about div:nth-of-type(2) {
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial; 
+}
+
+section.about div:nth-of-type(3) {
+    background-image: url(../images/details-of-a-modern.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: initial;  
+}
+
+div.feature {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    min-height: 490px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+div.feature article {
+	width: 70%;
+}
+
+}
+
