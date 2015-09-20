@@ -1,10 +1,10 @@
 ---
 site:
-  domain: sample.com
-  # subdomain: test
+  domain: israp.co.il
+  subdomain: one
   make_alias: false
-  root: httpdocs
-  username: "sample"
+  root: one
+  username: "israp"
   caracal_branch: develop
   # ip_address: 0.0.0.0
   # owner: Some Person
