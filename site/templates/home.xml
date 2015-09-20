@@ -23,7 +23,7 @@
 					class="phone"
 					>
 					<cms:text constant="phone"/>
-					<img src="_BASEURL.'/site/images/phone-circle.svg'" cms:eval="src"/> 
+					<img src="_BASEURL.'/site/images/phone-circle.svg'" alt="phone_icon" cms:eval="src"/> 
 				</a>
 
 			</header>
