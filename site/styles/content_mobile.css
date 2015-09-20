@@ -199,6 +199,7 @@ section.about article p {
 section.features {
 	display: block;
 	text-align: right;
+	padding-bottom: 10px;
 }
 
 section.features h2 {
