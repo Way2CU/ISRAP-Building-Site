@@ -82,8 +82,11 @@ div.copyright span a:hover {
 @media all and (max-width: 1024px) and (min-width: 768px) {
 
 div.footer_content {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 80px;
+}
+
+div.footer_content h2 {
+	width: 80%;
 }	
 
 }
