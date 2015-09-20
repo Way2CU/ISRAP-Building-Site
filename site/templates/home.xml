@@ -46,26 +46,51 @@
 			</section>
 
 			<section class="about">
-				<div>
-					<cms:module
-						name="articles"
-						action="show"
-						text_id="about_feature1"
-						template="parts/article.xml"
-						/>
-				</div>
+				<cms:desktop>
+					<div>
+						<cms:module
+							name="articles"
+							action="show"
+							text_id="about_feature1"
+							template="parts/article.xml"
+							/>
+					</div>
 
-				<div></div>
-				<div></div>
+					<div></div>
+					<div></div>
 
-				<div>
-					<cms:module
-						name="articles"
-						action="show"
-						text_id="about_feature2"
-						template="parts/article.xml"
-						/>					
-				</div>
+					<div>
+						<cms:module
+							name="articles"
+							action="show"
+							text_id="about_feature2"
+							template="parts/article.xml"
+							/>					
+					</div>
+				</cms:desktop>
+				<cms:mobile>
+					<div>
+						<cms:module
+							name="articles"
+							action="show"
+							text_id="about_feature1"
+							template="parts/article.xml"
+							/>
+					</div>
+
+					<div></div>
+
+					<div>
+						<cms:module
+							name="articles"
+							action="show"
+							text_id="about_feature2"
+							template="parts/article.xml"
+							/>					
+					</div>
+
+					<div></div>
+				</cms:mobile>
 
 			</section>
 
