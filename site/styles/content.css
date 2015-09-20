@@ -137,17 +137,17 @@ section.about div:first-of-type, section.about div:last-of-type {
 }
 
 section.about div:nth-of-type(2) {
-	background-image: url(../images/strong-real-estate.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
 }
 
 section.about div:nth-of-type(3) {
-	background-image: url(../images/Comprehensive-finishing-solutions.jpg);
+	background-image: url(../images/details-of-a-modern.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background-position: right center;
+    background-attachment: fixed;
 }
 
 section.about div:first-of-type article {
