@@ -223,7 +223,6 @@ div.feature {
 	position: relative;
 	overflow: hidden;
 	transition:all 0.3s;
-
 }
 
 div.feature:hover article {
