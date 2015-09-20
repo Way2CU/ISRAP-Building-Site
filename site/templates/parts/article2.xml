@@ -1,8 +1,20 @@
 <document>
-	<div class="feature">
-		<article>
-			<h3><cms:var param="title" multilanguage="yes"/></h3>
-			<cms:markdown param="content" multilanguage="yes"/>
-		</article>
-	</div>
+	<cms:desktop>
+		<div class="feature">
+			<article>
+				<h3><cms:var param="title" multilanguage="yes"/></h3>
+				<cms:markdown param="content" multilanguage="yes"/>
+			</article>
+		</div>
+	</cms:desktop>
+
+	<cms:mobile>
+			<article>
+				<h3><cms:var param="title" multilanguage="yes"/></h3>
+				<cms:markdown param="content" multilanguage="yes"/>
+				<figure></figure>
+			</article>
+			
+	</cms:mobile>
+
 </document>
