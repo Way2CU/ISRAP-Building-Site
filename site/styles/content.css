@@ -270,7 +270,7 @@ div.feature article {
     width: 55%;
     min-height: 215px;
     transition:all 0.3s;
-    transition-timing-function:ease-in;
+    transition-timing-function:ease;
     transition-delay:0.1s;
 }
 
