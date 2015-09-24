@@ -52,6 +52,11 @@ div.footer_content a {
     font-size: 1.3em;
     font-weight: 700;	
 	color:white;
+	transition:all 0.3s;
+}
+
+div.footer_content a:hover {
+	color: #f2623e;
 }
 
 footer div.copyright {
