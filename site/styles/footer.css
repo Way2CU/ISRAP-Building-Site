@@ -38,11 +38,20 @@ div.footer_content p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;    
     text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
     font-size: 2em;
     font-weight: 700;
     color: white;
     width: 70%;		
+}
+
+div.footer_content a {
+	display: inline-block;
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+    font-size: 1.3em;
+    font-weight: 700;	
+	color:white;
 }
 
 footer div.copyright {

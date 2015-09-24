@@ -16,7 +16,7 @@ div.footer_content {
 	background-image: url(../images/footer-mobile-background-01.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: 100% auto;
+	background-size: 110% auto;
 	min-height: 210px;
 }
 
@@ -43,6 +43,15 @@ div.footer_content p {
     font-weight: 700;
     color: white;
     width: 95%;		
+}
+
+div.footer_content a {
+	display: inline-block;
+    padding-bottom: 10px;	
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+    font-size: 1.3em;
+    font-weight: 700;	
+	color:white;
 }
 
 footer div.copyright {
