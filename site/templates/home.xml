@@ -113,6 +113,7 @@
 						text_id="footer_content"
 						template="parts/header_content.xml"
 						/>
+					<a href="mailto:info@israp.co.il"><cms:text constant="mail"/></a>	
 				</div>
 
 				<div class="copyright">
